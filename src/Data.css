@@ -1,0 +1,71 @@
+.data {
+   flex: 1; 
+   padding: 10px 0px 0px 20px;
+
+}
+.data__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+}
+.data__headerleft{
+    display: flex;
+    align-items: center;
+}
+.data__headerright{
+    display: flex;
+    align-items: center;
+    margin-left: 600px;
+   
+}
+.data__headerright svg{
+    margin: 0px 10px;
+}
+.data__grid{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.data__file{
+    text-align: center;
+    border: 1px solid lightgray;
+    margin: 10px;
+    min-width: 200px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 5px;
+}
+.data__file svg{
+    font-size: 60px;
+    color: gray;
+}
+.data__file p{
+    border-top: 1px solid #ccc;
+    margin-top: 5 px;
+    font-size: 12px;
+    background-color: whitesmoke;
+    padding: 10px 0px;
+}
+.detailsrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.detailsrow p svg{
+    font-size: 22px;
+    margin: 10px;
+}
+.detailsrow p{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.detailsrow p b{
+    display: flex;
+    align-items: center;
+}

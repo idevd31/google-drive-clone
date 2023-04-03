@@ -1,0 +1,103 @@
+.sidebar{
+    margin-top: 20px;
+
+}
+.sidebar_btn button{
+    background-color: transparent;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    padding: 5px 10px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px #ccc;
+}
+.sidebar_btn button span{
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.sidebar__options{
+    margin-top: 10px;
+}
+.sidebar__option{
+    display: flex;
+    align-items: 8px 20px;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.sidebar__option:hover{
+    background-color: whitesmoke;
+}
+.sidebar__option span{
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(78,78,78);
+}
+.sidebar__option-Active{
+    background-color: #e8f0fe;
+}
+.sidebar__option-Active span{
+    color: #1367d2;
+}
+.sidebar__option-Active svg{
+    color: #1367d2;
+}
+.progress__bar{
+    margin-left: -75px;
+    margin-top: 10px
+}
+
+.progress__bar span{
+    display: block;
+    font-size: 13px;
+    color: #333;
+    
+}
+
+.modal__pop{
+    top: 50%;
+    background-color: #fff;
+    width: 500px;
+    margin: 0px auto;
+    position: relative;
+    transform: translateY( -50% );
+    padding: 10px;
+    border-radius: 10px;
+}
+.madalheading{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+}
+
+input.post__submit{
+    width: 100%;
+    background-color: #2381fa;
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.uploading{
+    color: #ccc;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid green;
+    text-transform: uppercase;
+    background-color: green;
+    border-radius: 5px;
+    padding: 20px;
+    letter-spacing: 5px;
+
+
+}
